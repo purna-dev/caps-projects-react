@@ -1,0 +1,81 @@
+.register_h{
+    width: 100%;
+    display: flex;
+}
+.reg_left, .reg_right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.reg_left img{
+width: 100%;
+align-self: start;
+height: 710px;
+}
+.reg_left h2{
+    position: absolute;
+    width: 450px;
+    font-size: 2.5rem;
+    bottom: 7.1rem;
+    letter-spacing: 0.05rem;
+
+}
+
+.reg_right h1{
+    color:#72DB73;
+    letter-spacing: 0.02rem;
+}
+.reg_right p{
+    margin: 1.5rem 0;
+}
+.reg_right input{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 0.2rem;
+    width: 350px;
+    height: 45px;
+    color: white;
+    outline: none;
+}
+
+
+::placeholder{
+    font-family: DM sans;
+    padding-left: 0.5rem;
+}
+.reg_right .check{
+    align-self: start;
+    margin: 1rem 0 1rem 9.5rem;
+}
+.reg_right .check input{
+    width: 19px;
+    height: 14px;
+}
+.reg_right .check label{
+    font-size: 0.8rem;
+    letter-spacing: 0.01rem;
+    color: #7C7C7C;
+}
+
+.reg_right .terms, .policy{
+    font-size: 0.8rem;
+    width: 350px;
+    margin: 0;
+    letter-spacing: 0.01rem;
+    color: #7C7C7C;
+}
+
+.reg_right .terms span, .policy span{
+    color: #72DB73;
+}
+.error{
+    color: red;
+    font-size: 0.8rem;
+    letter-spacing: 0.01rem;
+    margin: 0 15rem 0 0;
+}
