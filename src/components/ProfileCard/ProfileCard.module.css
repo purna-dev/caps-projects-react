@@ -1,0 +1,38 @@
+.card{
+    background-color: #5746EA;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    justify-content: center;
+}
+.photo{
+    width: 130px;
+}
+.photo img{
+    width: 100%;
+}
+.text p{
+    font-size: 1.3rem;
+    letter-spacing: 0.01rem;
+
+}
+.text h2{
+    font-size: 1.9rem;
+
+    letter-spacing: 0.03rem;
+
+}
+.text .genre{
+    display: grid;
+    grid-template-columns: repeat(2,100px);
+    gap: 0.8rem;
+    margin-top: 0.9rem;
+}
+.text .genre div{
+    background-color: #756ada;
+    padding: 0.4rem 0.6rem;
+    text-align: center;
+    border-radius: 1rem;
+}

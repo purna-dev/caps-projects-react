@@ -1,0 +1,22 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 1rem;
+    margin: 0.5rem;
+}
+.browse{
+    background-color: #148A08;
+    font-family: 'DM Sans';
+    border: none;
+    padding: 0.7rem 2.5rem;
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 0.02rem;
+    border-radius: 1.4rem;
+   float: right;
+   margin-top: 0.1rem;
+   margin-right: 6rem;
+   cursor: pointer;
+    
+}

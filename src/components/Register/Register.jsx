@@ -63,7 +63,7 @@ function Register() {
     }
     if(isvalid){
       
-      localStorage.setItem('username',JSON.stringify(formdata))
+      localStorage.setItem('userdata',JSON.stringify(formdata))
       navigate("/genre");
 
     }
