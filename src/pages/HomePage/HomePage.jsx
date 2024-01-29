@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import ProfileCard from "../../components/ProfileCard/ProfileCard"
 import Notes from '../../components/Notes/Notes'
 import News from '../../components/News/News'
@@ -13,6 +13,13 @@ function HomePage() {
     navigate('/movies')
 
   }
+
+  useEffect(()=>{
+      if(!localStorage.getItem('userdata')){
+        navigate('/register')
+      }
+  },[])
+
   return (
     <>
 
